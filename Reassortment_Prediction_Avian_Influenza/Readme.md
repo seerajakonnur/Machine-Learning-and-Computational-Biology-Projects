@@ -23,7 +23,7 @@ influenza virus reassortment potential from clinical or environmental surveillan
 → Segment-wise DNABERT-2 embeddings  
 → Concatenated genome representation  
 → Random Forest reassortment classifier  
-→ Graph Attention Networks: 
+→ GAT : Segment-level DNABERT embeddings → Graph Attention Network → attention-guided analysis of segment compatibility underlying reassortment
 → Genetic Algorithm candidate generation  
 → Risk-ranked reassortant candidates  
 
