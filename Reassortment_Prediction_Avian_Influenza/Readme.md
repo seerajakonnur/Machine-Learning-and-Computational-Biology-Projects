@@ -1,7 +1,12 @@
 # Predicting Reassortment potential in Influenza A virus using foundation models (DNABERT2) and genetic algorithms
-This project develops a foundation-model-based framework to predict Influenza A reassortment potential from genome sequences. It uses DNABERT-2 segment-level embeddings, a Random Forest classifier for reassortment prediction, genetic-algorithm-based reassortant candidate simulation, and a GAT-based interaction probe to explore segment-level compatibility patterns.
 
-Accepted at NeurIPS 2025 Workshop on Foundation Models for Life Sciences (FM4LS).
+## Overview
+This project presents an AI-driven framework for predicting Influenza A reassortment potential using foundation-model-derived genomic representations. Influenza genomes are processed segment-wise using DNABERT-2 embeddings, followed by a Random Forest classifier for reassortment prediction. 
+
+In addition to classification, a Graph Attention Network (GAT) is used to model segment-level relationships and characterize attention-guided segment compatibility patterns associated with reassortment. A genetic algorithm module is used to explore biologically plausible reassortant candidates.
+
+This work was accepted at the NeurIPS 2025 2nd Workshop on Foundation Models for Life Sciences (FM4LS).
+
 
 🚧 **Project Status:** Under active development.  
 Expect frequent updates and changes.
