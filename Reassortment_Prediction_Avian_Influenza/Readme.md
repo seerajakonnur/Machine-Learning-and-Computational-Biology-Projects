@@ -75,4 +75,16 @@ Initial model development focused on H5N1 clade 2.3.4.4b sequences from the Unit
 
 Overall, the cross-clade evaluation set contained **17 non-reassortant sequences** and **5 reassortant sequences**. Only sequences with complete CDS information were included where possible, and care was taken to avoid overlap with training data.
 
+## Results
+
+A detailed summary of outputs, figures, and prediction files is available in the [`results/`](results/) folder.
+
+| Component | Key finding |
+|---|---|
+| DNABERT-2 embeddings | Dimensionality reduction showed clear structure separating reassortant and non-reassortant genomes. |
+| Random Forest classifier | Achieved strong performance on unseen same-clade test data. |
+| Cross-clade evaluation | RF retained useful generalization on independent clade data, with MCC ≈ 0.72. |
+| Genetic algorithm | Recovered known reassortant genotype patterns from outbreak data. |
+| GAT segment interaction analysis | Reassortant samples showed stronger and more concentrated attention patterns, particularly involving NP-centered interactions. |
+
 
