@@ -39,11 +39,11 @@ Influenza virus reassortment is not entirely random; it is shaped by factors suc
 
 This project uses Influenza A H5N1 genome sequences curated from published studies, with a focus on reassortant and non-reassortant viruses.
 
-### Training and Same-Clade Evaluation Dataset
+### Training and Model Development Dataset
 
 Initial model development focused on H5N1 clade 2.3.4.4b sequences from the United States 2021–2022 outbreak period. The dataset includes both non-reassortant and reassortant genotypes.
 
-### Model Development Dataset
+#### Training Dataset
 
 | Dataset component | Clade / background | Genotype(s) | Class | Number of sequences | Use |
 |---|---|---|---|---:|---|
