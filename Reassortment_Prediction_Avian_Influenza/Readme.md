@@ -61,9 +61,9 @@ Initial model development focused on H5N1 clade 2.3.4.4b sequences from the Unit
 
 ### Test Dataset 2 (External Study, includes other clades)
 
-| Source | Subtype and Clade | Genotype | Class | Number of sequences | Notes |
+| Source | Subtype and Clade | Genotype | Class | Number of sequences |
 |---|---|---|---|---:|---|
-| Alaska 2022 dataset | H5N1 clade 2.3.4.4b | A4 | Non-reassortant | 6 | Same clade as model-development data, but curated separately as part of the external-study evaluation collection |
+| Alaska 2022 dataset | H5N1 clade 2.3.4.4b | A4 | Non-reassortant | 6 |
 | Bangladesh H5N1 study | H5N1 clade 2.3.2.1a | Full-CDS non-reassortant sequence | Non-reassortant | 1 | 
 | Vietnam clade distribution study | H5N1 clade 1.1.2 | VN3 | Non-reassortant | 7 | 
 | Vietnam clade distribution study | H5N1 clade 2.3.2.1a | VN12 | Non-reassortant | 2 | 
