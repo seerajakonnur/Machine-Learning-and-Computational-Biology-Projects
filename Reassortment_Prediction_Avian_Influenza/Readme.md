@@ -32,8 +32,8 @@ influenza virus reassortment potential from clinical or environmental surveillan
 ### Primary prediction model
 The main predictive model is a Random Forest classifier trained on concatenated DNABERT-2 segment embeddings.
 
-### Interaction analysis module
-A Graph Attention Network (GAT) is used as an exploratory interaction probe. Each virus genome is represented as an 8-node graph, where nodes correspond to PB2, PB1, PA, HA, NP, NA, MP, and NS. Attention weights are used to examine candidate segment–segment interaction patterns associated with reassortment.
+### Segment Interaction Analysis with GAT
+Beyond the primary Random Forest classifier, a Graph Attention Network (GAT) is used to model segment-level relationships within each influenza genome. Each genome is represented as an 8-node graph corresponding to PB2, PB1, PA, HA, NP, NA, MP, and NS, enabling attention-guided characterization of segment compatibility patterns associated with reassortment.
 
 ### * Feature extraction using foundation model
 Genomic sequences (influenza RNA sequences across all 8 segments) are processed segment-wise through DNABERT2 to generate embeddings. Embeddings are created for each segment because reassortment occurs at the segment level, where whole genome segments are exchanged between two influenza viruses.
