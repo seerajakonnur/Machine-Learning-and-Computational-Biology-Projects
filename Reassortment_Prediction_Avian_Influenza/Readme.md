@@ -50,6 +50,13 @@ Initial model development focused on H5N1 clade 2.3.4.4b sequences from the Unit
 | Training reassortants | Major reassortant genotypes including B1.1, B1.2, B2, B3.1, B3.2, B4, and B5 |
 | Same-clade test reassortants | Minor reassortant genotypes |
 
+### Model Development Dataset
+
+| Dataset component | Clade / background | Genotype(s) | Class | Use |
+|---|---|---|---|---|
+| Training non-reassortants | H5N1 clade 2.3.4.4b | A1 | Non-reassortant | Training |
+| Training reassortants | H5N1 clade 2.3.4.4b | B1.1, B1.2, B2, B3.1, B3.2, B4, B5 | Reassortant | Training |
+
 This setup enabled evaluation of whether the model could distinguish reassortant from non-reassortant genomes within the same broad clade background.
 
 ### Cross-Clade Evaluation Dataset
