@@ -59,7 +59,7 @@ Initial model development focused on H5N1 clade 2.3.4.4b sequences from the Unit
 | Same-study reassortants | Same published study as training data, not used in training | H5N1 clade 2.3.4.4b | Minor reassortant genotypes | Reassortant | 30 | Test |
 | **Total** | — | — | — | — | **55** | Test |
 
-### Test Dataset 2 (External Study, includes other clades)
+#### Test Dataset 2 (External Study, includes other clades)
 
 | Source | Subtype and Clade | Genotype | Class | Number of sequences |
 |---|---|---|---|---:|
