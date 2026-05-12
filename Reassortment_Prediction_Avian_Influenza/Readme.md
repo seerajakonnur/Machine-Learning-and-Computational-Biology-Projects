@@ -64,11 +64,11 @@ Initial model development focused on H5N1 clade 2.3.4.4b sequences from the Unit
 | Source | Subtype and Clade | Genotype | Class | Number of sequences | Notes |
 |---|---|---|---|---:|---|
 | Alaska 2022 dataset | H5N1 clade 2.3.4.4b | A4 | Non-reassortant | 6 | Same clade as model-development data, but curated separately as part of the external-study evaluation collection |
-| Bangladesh H5N1 study | H5N1 clade 2.3.2.1a | Full-CDS non-reassortant sequence | Non-reassortant | 1 | Only one full-CDS non-reassortant sequence was usable |
-| Vietnam clade distribution study | H5N1 clade 1.1.2 | VN3 | Non-reassortant | 7 | Independent external-study non-reassortants |
-| Vietnam clade distribution study | H5N1 clade 2.3.2.1a | VN12 | Non-reassortant | 2 | Independent external-study non-reassortants |
-| Vietnam clade distribution study | H5N1 clade 2.3.2.1b | VN45 | Non-reassortant | 1 | Independent external-study non-reassortants |
-| Bangladesh H5N1 study | H5N1 clade 2.3.2.1a | Reassortants with low-pathogenic Eurasian-lineage avian influenza A viruses | Reassortant | 5 | Complete-CDS reassortant sequences |
+| Bangladesh H5N1 study | H5N1 clade 2.3.2.1a | Full-CDS non-reassortant sequence | Non-reassortant | 1 | 
+| Vietnam clade distribution study | H5N1 clade 1.1.2 | VN3 | Non-reassortant | 7 | 
+| Vietnam clade distribution study | H5N1 clade 2.3.2.1a | VN12 | Non-reassortant | 2 | 
+| Vietnam clade distribution study | H5N1 clade 2.3.2.1b | VN45 | Non-reassortant | 1 | 
+| Bangladesh H5N1 study | H5N1 clade 2.3.2.1a | Reassortants with low-pathogenic Eurasian-lineage avian influenza A viruses | Reassortant | 5 | 
 | **Total non-reassortants** | — | — | Non-reassortant | **17** | — |
 | **Total reassortants** | — | — | Reassortant | **5** | — |
 | **Total** | — | — | — | **22** | External-study test collection |
