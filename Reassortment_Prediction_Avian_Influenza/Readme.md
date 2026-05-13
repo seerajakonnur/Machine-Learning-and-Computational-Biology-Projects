@@ -95,4 +95,11 @@ The GAT module is used as a segment interaction analysis component rather than t
 
 Attention-derived interaction graphs suggest that reassortant samples exhibit stronger and more concentrated segment interaction patterns compared with non-reassortants. NP segment emerged as the top segment involved in interactioons followed by PB2 in reassortants and HA in non-reassortants.
 
+### Reassortant segment interaction graph
+
+![Reassortant GAT interaction graph](assets/reassortant_from_graph_builder_3.png)
+
+### Non-reassortant segment interaction graph
+
+![Non-reassortant GAT interaction graph](assets/nonreassortant_from_graph_builder_3.png)
 
