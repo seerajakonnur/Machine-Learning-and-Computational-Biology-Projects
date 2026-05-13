@@ -87,4 +87,12 @@ A detailed summary of outputs, figures, and prediction files is available in the
 | Genetic algorithm | Recovered known reassortant genotype patterns from the United States 2021–2022 outbreak data. |
 | GAT segment interaction analysis | GAT attention maps captured distinct segment–segment interaction patterns between reassortant and non-reassortant genomes. Reassortant samples showed stronger and more concentrated interaction signals, with NP emerging as a central segment involved in multiple high-attention relationships. This suggests that the model is capturing NP-associated compatibility shifts that may be important in reassortment. |
 
+## Segment Interaction Analysis
+
+To investigate segment-level compatibility patterns, each influenza genome was represented as an 8-node graph, where nodes correspond to PB2, PB1, PA, HA, NP, NA, MP, and NS. A Graph Attention Network was trained on the reassortment classification task, and attention weights were extracted to summarize segment–segment interaction patterns.
+
+The GAT module is used as a segment interaction analysis component rather than the primary prediction model. The primary predictive model remains the Random Forest classifier trained on concatenated DNABERT-2 embeddings.
+
+Attention-derived interaction graphs suggest that reassortant samples exhibit stronger and more concentrated segment interaction patterns compared with non-reassortants. NP segment emerged as the top segment involved in interactioons followed by PB2 in reassortants and HA in non-reassortants.
+
 
