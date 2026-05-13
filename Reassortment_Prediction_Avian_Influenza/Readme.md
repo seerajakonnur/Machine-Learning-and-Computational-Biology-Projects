@@ -126,5 +126,12 @@ Directed edges represent attention-guided relationships between genome segments,
 
 Install dependencies:
 
-python scripts/generate_embeddings.py
+### Generate train data embeddings
+python scripts/dnabert2_segment_specific.py
+
+### Generate test data embeddings
+python scripts/dnabert2_test_embeddings.py
+
+### Run classifier
+python scripts/rf_classifier_gridsearch_fixed.py
 
