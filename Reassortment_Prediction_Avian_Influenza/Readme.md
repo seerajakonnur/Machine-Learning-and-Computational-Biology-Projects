@@ -93,7 +93,26 @@ To investigate segment-level compatibility patterns, each influenza genome was r
 
 The GAT module is used as a segment interaction analysis component rather than the primary prediction model. The primary predictive model remains the Random Forest classifier trained on concatenated DNABERT-2 embeddings.
 
-Attention-derived interaction graphs suggest that reassortant samples exhibit stronger and more concentrated segment interaction patterns compared with non-reassortants. NP segment emerged as the top segment involved in interactioons followed by PB2 in reassortants and HA in non-reassortants.
+Attention weights learned by the GAT were used to characterize segment–segment interaction patterns associated with reassortment. Attention-derived interaction graphs suggest that reassortant samples exhibit stronger and more concentrated segment interaction patterns compared with non-reassortants. NP segment emerged as the top segment involved in interactioons followed by PB2 in reassortants and HA in non-reassortants.
+
+Directed edges represent attention-guided relationships between genome segments, while edge color intensity reflects interaction strength. Self-loops were removed for visualization clarity.
+
+### GAT-Derived Segment Interaction Networks
+
+<p align="center">
+  <img src="assets/nonreassortant_from_graph_builder_3.png" width="45%" />
+  <img src="assets/reassortant_from_graph_builder_3.png" width="45%" />
+</p>
+
+<p align="center">
+  <b>Left:</b> Non-Reassortant Interaction Network &nbsp;&nbsp;&nbsp;
+  <b>Right:</b> Reassortant Interaction Network
+</p>
+
+<p align="center">
+  Edge colors represent normalized attention strength from the GAT model
+  (green → low attention, red → high attention).
+</p>
 
 ### Reassortant segment interaction graph
 
