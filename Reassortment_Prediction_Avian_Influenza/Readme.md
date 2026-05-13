@@ -122,3 +122,9 @@ Directed edges represent attention-guided relationships between genome segments,
 
 ![Non-reassortant GAT interaction graph](assets/nonreassortant_from_graph_builder_3.png)
 
+## How to Run
+
+Install dependencies:
+
+python scripts/generate_embeddings.py
+
