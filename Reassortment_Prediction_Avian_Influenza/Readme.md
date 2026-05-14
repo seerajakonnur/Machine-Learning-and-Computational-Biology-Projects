@@ -75,6 +75,10 @@ Initial model development focused on H5N1 clade 2.3.4.4b sequences from the Unit
 
 Overall, the external evaluation set contained **17 non-reassortant sequences** and **5 reassortant sequences**. Curating this dataset was challenging because publicly available whole-genome influenza sequences are not always clearly annotated as reassortant or non-reassortant. Only sequences with complete CDS information were included, and care was taken to avoid overlap with the training data.
 
+## Data Availability
+
+The repository includes curated metadata tables and accession identifiers used for dataset construction. Raw genome sequences are not stored directly in the repository and can be retrieved from their respective public databases using the provided accession IDs.
+
 ## Results
 
 A detailed summary of outputs, figures, and prediction files is available in the [`results/`](results/) folder.
