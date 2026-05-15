@@ -14,7 +14,7 @@ Together, PCA and t-SNE provide complementary views: PCA highlights the broad gl
 
 ![t-SNE visualization](../assets/influenza_clustering_segment_specific_pca.png)
 
-![t-SNE visualization](../assets/influenza_clustering_segment_specific_tsne.png)
+![PCA visualization](../assets/influenza_clustering_segment_specific_tsne.png)
 
 
 ## Random Forest Classifier
@@ -50,7 +50,7 @@ This PCA plot visualizes DNABERT-2 embeddings using three biological metadata la
 
 The separation of external clades from the primary 2.3.4.4b group, together with genotype-level clustering within the same embedding space, suggests that DNABERT-2 segment-specific embeddings encode meaningful evolutionary and reassortment-associated variation.
 
-![t-SNE visualization](../assets/pca_grouped_heirarchical.png)
+![PCA visualization](../assets/pca_grouped_hierarchical.png)
 
 
 ## Genetic Algorithm Results
