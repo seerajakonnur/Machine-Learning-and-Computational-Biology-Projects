@@ -58,3 +58,21 @@ The separation of external clades from the primary 2.3.4.4b group, together with
 Because Influenza A contains eight independently exchangeable genome segments, the number of potential reassortant combinations increases rapidly with the number of parental viruses. The genetic algorithm (GA) module was used to prioritize biologically plausible reassortant candidates from this large combinatorial space.
 
 The GA successfully recovered known reassortant genotype patterns from outbreak data, suggesting that the framework captures biologically meaningful segment compatibility constraints. 
+
+### Genetic Algorithm Fitness Criteria
+
+The genetic algorithm was designed to prioritize biologically plausible reassortant genomes by scoring candidate segment combinations using influenza-specific compatibility rules. Each candidate genome was represented as an 8-segment combination derived from two parental viruses.
+
+The fitness function included the following criteria:
+
+| Fitness criterion | Biological rationale | Fitness contribution |
+|---|---|---:|
+| Intact polymerase complex | PB2, PB1, and PA were rewarded when inherited from the same parent, reflecting functional compatibility of the influenza polymerase complex. | +100 |
+| NP–polymerase compatibility | NP was rewarded when inherited from the same parent as the intact polymerase complex, reflecting the functional association between NP and polymerase activity. | +50 |
+| Partial polymerase integrity | Candidates with two of the three polymerase segments from the same parent were given a smaller reward, representing partial compatibility. | +35 |
+| HA–NA co-inheritance | HA and NA were rewarded when inherited from the same parent, reflecting coordinated surface protein compatibility. | +40 |
+| Avoidance of fully parental genomes | Fully parental segment combinations were penalized to encourage true reassortant candidates rather than unchanged parental genomes. | −70 |
+
+These biologically informed constraints guided the GA toward reassortant candidates that preserve key functional relationships while still exploring novel segment combinations.
+
+The GA fitness function was designed to favor reassortant candidates that preserve key influenza segment compatibility relationships. Candidate genomes received the strongest reward when the polymerase complex segments PB2, PB1, and PA were inherited together from the same parent. Additional fitness was assigned when NP matched the polymerase parent, reflecting NP–polymerase functional association, and when HA and NA were co-inherited from the same parent. Candidates with partial polymerase compatibility were given a smaller reward, while fully parental genomes were penalized to encourage genuine reassortant combinations. This allowed the GA to search the reassortment space while prioritizing biologically plausible segment constellations.
