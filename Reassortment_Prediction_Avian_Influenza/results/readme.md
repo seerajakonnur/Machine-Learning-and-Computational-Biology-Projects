@@ -43,3 +43,13 @@ The Random Forest classifier was also evaluated on an independently curated exte
 | MCC | 0.7174 |
 
 The model correctly identified all reassortant samples in this external-study test set, while 3 non-reassortant samples were misclassified as reassortants. Despite the small and imbalanced dataset, the MCC of 0.7174 indicates useful generalization across independently sourced sequences.
+
+### Multi-Level Embedding Structure
+
+This PCA plot visualizes DNABERT-2 embeddings using three biological metadata layers: shape indicates reassortment status, edge color indicates clade, and face color indicates grouped genotype. The embeddings show clear organization across clade, genotype, and reassortment labels, demonstrating that the learned representations capture multi-level biological structure rather than only a binary class signal.
+
+The separation of external clades from the primary 2.3.4.4b group, together with genotype-level clustering within the same embedding space, suggests that DNABERT-2 segment-specific embeddings encode meaningful evolutionary and reassortment-associated variation.
+
+
+
+## Genetic Algorithm Results
