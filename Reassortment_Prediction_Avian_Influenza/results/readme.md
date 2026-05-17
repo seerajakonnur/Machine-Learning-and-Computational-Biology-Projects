@@ -74,5 +74,3 @@ The fitness function included the following criteria:
 | Avoidance of fully parental genomes | Fully parental segment combinations were penalized to encourage true reassortant candidates rather than unchanged parental genomes. | −70 |
 
 These biologically informed constraints guided the GA toward reassortant candidates that preserve key functional relationships while still exploring novel segment combinations.
-
-The GA fitness function was designed to favor reassortant candidates that preserve key influenza segment compatibility relationships. Candidate genomes received the strongest reward when the polymerase complex segments PB2, PB1, and PA were inherited together from the same parent. Additional fitness was assigned when NP matched the polymerase parent, reflecting NP–polymerase functional association, and when HA and NA were co-inherited from the same parent. Candidates with partial polymerase compatibility were given a smaller reward, while fully parental genomes were penalized to encourage genuine reassortant combinations. This allowed the GA to search the reassortment space while prioritizing biologically plausible segment constellations.
