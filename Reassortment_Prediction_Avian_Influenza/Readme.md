@@ -118,13 +118,6 @@ Directed edges represent attention-guided relationships between genome segments,
   (green → low attention, red → high attention).
 </p>
 
-### Reassortant segment interaction graph
-
-![Reassortant GAT interaction graph](assets/reassortant_from_graph_builder_3.png)
-
-### Non-reassortant segment interaction graph
-
-![Non-reassortant GAT interaction graph](assets/nonreassortant_from_graph_builder_3.png)
 
 ## How to Run
 
