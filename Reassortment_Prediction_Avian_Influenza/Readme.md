@@ -150,7 +150,8 @@ scripts/build_graph_3.py
 
 Note: Some raw sequence files may not be included directly in this repository due to data size and source-specific access requirements.
 
-# Repository Structure
+
+Use this:
 
 ````markdown
 ## Repository Structure
@@ -162,4 +163,4 @@ Reassortment_Prediction_Avian_Influenza/
 ├── data/            # Input metadata or curated dataset files
 ├── results/         # Model outputs, plots, prediction summaries, and result documentation
 ├── scripts/         # Python scripts for embeddings, classification, GA, and GAT analysis
-└── Readme.md        # Project overview
+└── README.md        # Project overview
