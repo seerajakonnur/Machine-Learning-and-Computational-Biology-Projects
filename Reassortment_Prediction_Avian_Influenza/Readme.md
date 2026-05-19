@@ -145,12 +145,12 @@ python scripts/Genetic_algorithm.py
 
 #### Run GAT-based segment interaction analysis:
 ```python
-scripts/GNN_GAT_with_attention.py
+python scripts/GNN_GAT_with_attention.py
 ```
 
 #### Generate GAT interaction graphs:
 ```python
-scripts/build_graph_3.py
+python scripts/build_graph_3.py
 ```
 
 Note: Some raw sequence files may not be included directly in this repository due to data size and source-specific access requirements.
