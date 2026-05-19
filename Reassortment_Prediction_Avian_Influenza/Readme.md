@@ -124,22 +124,34 @@ Directed edges represent attention-guided relationships between genome segments,
 Install dependencies:
 
 #### Generate train data embeddings:
+```python
 python scripts/dnabert2_segment_specific.py
+```
 
 #### Generate test data embeddings:
+```python
 python scripts/dnabert2_test_embeddings.py
+```
 
 #### Train and evaluate the Random Forest classifier:
+```python
 python scripts/rf_classifier_gridsearch_fixed.py
+```
 
 #### Genetic Algorithms:
+```python
 python scripts/Genetic_algorithm.py
+```
 
 #### Run GAT-based segment interaction analysis:
+```python
 scripts/GNN_GAT_with_attention.py
+```
 
 #### Generate GAT interaction graphs:
+```python
 scripts/build_graph_3.py
+```
 
 Note: Some raw sequence files may not be included directly in this repository due to data size and source-specific access requirements.
 
