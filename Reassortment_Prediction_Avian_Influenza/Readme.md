@@ -1,3 +1,5 @@
+# This project has moved to:
+[New Repository Link]
 # Predicting Reassortment potential in Influenza A virus using foundation models (DNABERT2) and genetic algorithms
 > **Project status:** This work is under active development, with ongoing updates to model evaluation, interaction analysis, and documentation.
 ## Overview
