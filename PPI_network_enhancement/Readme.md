@@ -45,27 +45,17 @@ The workflow has three main stages:
 
 ## Algorithm Application:
 •	We applied a probabilistic spreading algorithm (PSA) commonly used in recommendation systems to the binding interactions.
+•	The analysis was performed using the PSA.py script, which requires a tab-separated input file with two columns, where the first column contains pathogen proteins and the second column contains host proteins.
 
-•	The script PSA.py was utilized for this purpose.
-
-## Input Requirements:
-•	A tab separated file with two columns: the first column contains pathogen proteins and the second contains host proteins.
-
-•	The name of the output file to store the results. 
-
-•	The code works without errors in Python2 however, gives an error in Python3 "'dict_keys’ object is not subscriptable” as  in Python 3 dict.keys() returns an iterable but not indexable object. 
-
-
-##	Output:
-•	The PSA.py script outputs a .txt file.
-
-•	The output file contains:
-1.	The pathogen protein in the first column.
-2.	The corresponding interacting host protein along with the likelihood of interaction in the second column.
-3.	The PSA algorithm generates a wide range of recommended interactions. However, since it doesn't consider biological properties, many of these interactions are likely to be false positives.
-4.	To address this, it is crucial to filter the interactions and establish a cutoff for further analysis.
-5.	To determine the appropriate cutoff, we plotted a histogram of the interaction likelihood values to examine their distribution. Based on the density of values, we selected only those interactions above the 75th percentile for further analysis. This approach helps ensure that the most likely interactions are prioritized while reducing the inclusion of potential false positives.
-6.	We utilized machine learning to fuether filter the above predicted interactions.
+## Output:
+•	The PSA.py script generates a .txt output file containing the predicted pathogen–host protein interactions.
+•	The output file includes:
+   1. Pathogen protein in the first column.
+   2. Predicted interacting host protein and the corresponding interaction likelihood score in the second column.
+•	The PSA algorithm predicts a large number of potential pathogen–host interactions. However, as the predictions are based primarily on sequence-derived features and do not explicitly account for biological context, a proportion of the predicted interactions may represent false positives.
+•	To improve confidence in the predictions, additional filtering steps were applied.
+•	First, the distribution of interaction likelihood scores was examined by plotting a histogram. Based on the observed score distribution, only interactions with scores above the 75th percentile were retained for downstream analysis. This threshold prioritizes high-confidence interactions while reducing the inclusion of lower-confidence predictions.
+•	Subsequently, machine learning–based filtering approaches were applied to further refine the predicted interaction set and identify the most biologically plausible pathogen–host interactions.
 
 
 ## Feature Selection:
