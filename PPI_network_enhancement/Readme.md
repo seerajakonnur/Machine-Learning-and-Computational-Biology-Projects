@@ -107,12 +107,8 @@ The interaction networks were visualized using Cytoscape.
 ### Starting Binding Interaction Network
 
 The initial network contains only experimentally reported binding interactions.
+[![Starting binding interaction network](binding_interaction_starting_point.png)](binding_interaction_starting_point.pdf)
 
-File:
-
-```text
-binding_interaction_starting_point.pdf
-```
 
 ### Enhanced Interaction Network
 
