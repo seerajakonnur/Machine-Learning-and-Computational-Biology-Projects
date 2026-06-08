@@ -107,18 +107,13 @@ The interaction networks were visualized using Cytoscape.
 ### Starting Binding Interaction Network
 
 The initial network contains only experimentally reported binding interactions.
-[![Starting binding interaction network](binding_interaction_starting_point.jpeg)
+![Starting binding interaction network](binding_interaction_starting_point.jpeg)
 
 
 ### Enhanced Interaction Network
 
 The enhanced network includes newly predicted interactions.
-
-File:
-
-```text
-enhanced2.pdf
-```
+![Enhanced Network](enhanced2.jpeg)
 
 Newly predicted interactions are highlighted in shades of pink. Darker colors indicate higher-confidence predictions.
 
