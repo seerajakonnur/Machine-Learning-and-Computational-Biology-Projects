@@ -37,8 +37,6 @@ The workflow has three main stages:
 
 •Then the interactions which we get after enehnacement can be cross checked and see if we they match with any other types of interactions that were there in the original data. This way we can validate the enhanced interactions.
 
-![Binding Interactions - Starting point](binding_interaction_starting_point.pdf)
-
 
 ##  Network Enhancement:
 •	We applied a novel technique to expand the interaction network.
@@ -102,12 +100,31 @@ meme -mod anr protein_sequences.fasta -protein -o meme_output -nmotifs 5
 
 • Enhancement: A total of 35 new interactions were identified for 5 pathogen proteins using this technique.
 
-## Network Visualisation:
-• Cytoscape, an open source bioinfomartics software was used to visualize the interactions.
+## Network Visualization
 
-• The binding_interactions_starting_point.pdf file shows the interaction network containing only binding interactions, which serves as the starting point for this project.
+The interaction networks were visualized using Cytoscape.
 
-• The enhanced2.pdf shows enhanced network where the new interactions are colored differently in shades of pink. The color intensity ranges from light to dark, indicating the reliability of the newly predicted interactions. Darker colors represent higher confidence levels. This only shows new interactions 5 pathogen proteins and not all.
+### Starting Binding Interaction Network
+
+The initial network contains only experimentally reported binding interactions.
+
+File:
+
+```text
+binding_interaction_starting_point.pdf
+```
+
+### Enhanced Interaction Network
+
+The enhanced network includes newly predicted interactions.
+
+File:
+
+```text
+enhanced2.pdf
+```
+
+Newly predicted interactions are highlighted in shades of pink. Darker colors indicate higher-confidence predictions.
 
 
 
